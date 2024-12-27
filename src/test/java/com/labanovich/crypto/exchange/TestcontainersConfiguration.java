@@ -1,4 +1,4 @@
-package com.labanovich.cryptoexcange;
+package com.labanovich.crypto.exchange;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;

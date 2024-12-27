@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: ${DB_USERNAME:xxx}
+    password: ${DB_PASSWORD:xxx}
+    driver-class-name: org.postgresql.Driver
+    url: ${DB_URL:xxx}
+  jpa:
+    open-in-view: false
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+      ddl-auto: validate
+  main:
+    allow-circular-references: true
+crypto.exchange:
+  jwt-secret-key: ${JWT_SECRET_KEY:xxx}
