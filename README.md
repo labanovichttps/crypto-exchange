@@ -32,5 +32,6 @@ cryptocurrencies.
 
 ### Important:
 
+
 Code quality - we will be paying attention to how you write and organize the code
 Test coverage - at least some key functionality should be covered
